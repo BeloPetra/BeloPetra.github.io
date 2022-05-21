@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap');
+
+html {background-color:rgb(202, 107, 35) ;}
+
+h1 {
+    font-family:'Josefin Sans', sans-serif;
+    color: rgb(255, 238, 0);}
+
+img {height: 500px;} 
+
+h2 {
+    font-family:'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', 'serif';
+    font-size:larger;
+    color:rgb(255, 238, 0);}
+
+p {color: black;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+#aboutus {text-align:left}
+
+.menu {font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+    font-weight: 500;}
+.divpictures {text-align: center;
+    background-color:rgb(202, 107, 35);
+    border-style:dashed;
+    border-color: rgb(255, 238, 0);}
+#menupontok {text-align: justify;}
