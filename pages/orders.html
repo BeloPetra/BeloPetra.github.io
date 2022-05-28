@@ -6,31 +6,131 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.2.0-beta1-dist/css/mycss.css">
+    <link href="../bootstrap/bootstrap-5.2.0-beta1-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../css/styles/style.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <h1>FaláBurger</h1>
-    <ul>
-        <li>
-            <a href="/main.html">Kezdőlap</a>
-        </li>
-        <li>
-            <a href="/pages/Menu.html">Menü</a>
-        </li>
-        <li>
-            <a href="/pages/orders.html">Rendelés</a>
-        </li>
-        <li>
-            <a href="/pages/elerhetoseg.html">Elérhetőségek</a>
-        </li>  
+<div id="my-navbar">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/main.html">Faláburger</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/pages/Menu.html">Menü</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/orders.html">Rendelés</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/elerhetoseg.html">Elérhetőségek</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<br>
 <H2>Ételrendelés</H2>
-        <h2>A rendelés menete</h2>
-        <ol>
-            <li>Válaszd ki a burgered</li>
-            <li>Adj hozzá extrákat</li>
-            <li>Add meg a címed</li>
-            <li>Jó étvágyat</li>
-        </ol>
+    <p> Adja le rendelését könnyen az alábbi úrlap segítségével!</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+
+            </div>
+            <div id="ordersdiv" class="col-6">
+                <form>
+                    <fieldset>
+                        <legend>Személyes adatok</legend>
+                        <div>
+                            <label for="name">Név:</label>
+                            <input id="name" name="name" type="text" required>
+                        </div>
+                        <div>
+                            <label for="email">E-mail:</label>
+                            <input id="email" name="email" type="text" required>
+                        </div>
+                        <div>
+                            <label for="telefon">Telefonszám:</label>
+                            <input id="telefon" name="telefon" type="text" required>
+                        </div>
+                        <div>
+                            <label for="adress">Cím:</label>
+                            <input id="adress" name="adress" type="text" required>
+                        </div>
+                        <div>
+                            <label for="comment">Megjegyzés:</label>
+                            <textarea id="comment" name="comment" rows="5"> </textarea>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Hamburgerek</legend>
+                        <div>
+                            <label for="Classic">Classic Burger</label>
+                            <input id="classic" name="classic" type="checkbox"> <input id="quantity" name="quantity"
+                                type="number" min="0" max="10">
+                        </div>
+                        <div>
+                            <label for="Bullet">Ágyúgolyó</label>
+                            <input id="Bullet" name="Bullet" type="checkbox"> <input id="quantity" name="quantity"
+                                type="number" min="0" max="10">
+                        </div>
+                        <div>
+                            <label for="fedelzet">Fedélzet Burger</label>
+                            <input id="fedelzet" name="fedelzet" type="checkbox"> <input id="quantity" name="quantity"
+                                type="number" min="0" max="10">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Extra feltétek</legend>
+
+                        <span>Extra feltét:</span>
+                        <div>
+                            <label for="nothing">Nem kérek</label>
+                            <input checked id="nothing" name="extra" type="radio" value="0">
+                        </div>
+                        <div>
+                            <label for="chedar">Chedar</label>
+                            <input id="chedar" name="extra" type="radio" value="300">
+                        </div>
+                        <div>
+                            <label for="jalapeno">Jalapeno</label>
+                            <input id="jalapeno" name="extra" type="radio" value="300">
+                        </div>
+                        <div>
+                            <label for="bluecheese">Kéksajt</label>
+                            <input id="bluecheese" name="extra" type="radio" value="400">
+                        </div>
+                        <div>
+                            <label for="bacon">Bacon</label>
+                            <input id="bacon" name="extra" type="radio" value="450">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div>
+                            <input type="button" value="Rendelés leadása">
+
+                        </div>
+                    </fieldset>
+
+                </form>
+            </div>
+            <div class="col-3">
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
 </body>
 
 </html>

@@ -6,16 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.2.0-beta1-dist/css/mycss.css">
+    <link href="../bootstrap/bootstrap-5.2.0-beta1-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../css/styles/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>FaláBurger</h1>
-    <p id="menupontok"> </p><a class="menu" href="/main.html">Kezdőlap</a> <a class="menu" href="/pages/Menu.html">Menü</a> <a class="menu"
-            href="/pages/orders.html">Rendelés</a> <a class="menu" href="/pages/elerhetoseg.html">Elérhetőségek</a>
-    </p>
-    <h2 style="margin: 15px;">Rólunk</h2>
-    <p style="margin: 15px;" id="aboutus">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet diam sit
+    <div id="my-navbar">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/main.html">Faláburger</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/pages/Menu.html">Menü</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/orders.html">Rendelés</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/elerhetoseg.html">Elérhetőségek</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <br>
+    <div>
+        <img class="img-fluid" src="/css/img/cs8a-hero.jpg">
+    </div>
+    <h2>Rólunk</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet diam sit
         amet quam ultricies viverra id sed nunc. <br>
         Phasellus commodo vestibulum sem. Nulla sit amet ipsum dictum, malesuada urna ut, finibus sem. Cras fermentum
         varius luctus. <br>
@@ -29,10 +51,8 @@
     <h2 style="margin: 15px;">Időszakos akcióink</h2>
     <p style="margin: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet diam sit amet quam
         ultricies viverra id sed nunc. Phasellus commodo vestibulum sem.</p>
-    <div class="divpictures">
-        <p><img src="img/566_k.jpg" alt="hamburger1"><img src="img/38065078ceb0810fafa9bd2cee8d22b3.jpg"
-                alt="hamburger1"><img src="img/20201016a-jo-hamburger-ma-mar1.jpg" alt="hamburger2"></p>
-    </div>
+    
+
 </body>
 
 </html>

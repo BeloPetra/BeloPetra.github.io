@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(216, 211, 211)
+}
+
+.logindiv {
+    padding: 15px;
+    border: solid 1px #c0c0c0;
+    box-shadow: 0 0 2px #1d1c1c;
+    display: inline-block;
+}
+
+.logindiv input {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.logindiv input:focus {
+    box-shadow: 2px 2px 3px gray;
+    border: none
+}
+
+
+.logindiv button:hover {
+    box-shadow: 2px 2px 3px;
+}
+
+ul li:last-child {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+ul li:first-child {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+}
+
+ul li:nth-child(2) {
+    color: yellowgreen;
+}

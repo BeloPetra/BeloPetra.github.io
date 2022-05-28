@@ -5,82 +5,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.2.0-beta1-dist/css/mycss.css">
+    <link href="../bootstrap/bootstrap-5.2.0-beta1-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../css/styles/style.css" rel="stylesheet">
     <title>FaláBurger</title>
 </head>
 
 <body>
-    <h1>FaláBurger</h1>
-    <ul>
-        <li>
-            <a href="/main.html">Kezdőlap</a>
-        </li>
-        <li>
-            <a href="/pages/Menu.html">Menü</a>
-        </li>
-        <li>
-            <a href="/pages/orders.html">Rendelés</a>
-        </li>
-        <li>
-            <a href="/pages/elerhetoseg.html">Elérhetőségek</a>
-        </li>
-    </ul>
-
-
+    <div id="my-navbar">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/main.html">Faláburger</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/pages/Menu.html">Menü</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/orders.html">Rendelés</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/elerhetoseg.html">Elérhetőségek</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <br>
     <h2>
-        ELÉRHETŐSÉGEINK
+        Elérhetőségeink
     </h2>
 
-    <h3>
+    <h2>
         Cím:
-    </h3>
+    </h2>
     <p>20515 Buci, Burg Erdősor 18</p>
-    <h3>
-        Telefon:
-    </h3>
+
+    <h2>Telefon:</h2>
     <p>+3670/8854-188</p>
-    <h3>
-        E-mail:
-    </h3>
+
+    <h2>E-mail:</h2>
     <p>falaburger@gmail.com</p>
 
     <table>
-        <caption>Nyitvatartás</caption>
-        <thead>
-            <tr>
-                <th>Napok</th>
-                <th>Nyitás</th>
-                <th>Zárás</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Hétfő-Csütörtök</td>
-                <td>10:00 - </td>
-                <td>21:00</td>
-            </tr>
-            <tr>
-                <td>Péntek-Szombat</td>
-                <td>10:00 - </td>
-                <td>24:00</td>
-            </tr>
-            <tr>
-                <td>Vasárnap</td>
-                <td colspan="2">Closed</td>
-               
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="3">Ünnepnapokon a nyitvatartás változhat!</td>
-            </tr>
-        </tfoot>
+        <h2>Nyitvatartás<h2>
+            <thead>
+                <tr>
+                    <th>Napok</th>
+                    <th>Nyitás</th>
+                    <th>Zárás</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hétfő-Csütörtök</td>
+                    <td>10:00 - </td>
+                    <td>21:00</td>
+                </tr>
+                <tr>
+                    <td>Péntek-Szombat</td>
+                    <td>10:00 - </td>
+                    <td>24:00</td>
+                </tr>
+                <tr>
+                    <td>Vasárnap</td>
+                    <td colspan="2">Closed</td>
+
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Ünnepnapokon a nyitvatartás változhat!</td>
+                </tr>
+            </tfoot>
 
     </table>
 
-    <h3>
-        Megközelítés
-    </h3>
-    Buci község hajóállomásától 5 perc (10 ha csak fél lába van) sétára helyezekünk el észak felé.
+    <h2>Megközelítés</h2>
+    
+        <p>Buci község hajóállomásától 5 perc (10 ha csak fél lába van) sétára helyezekünk el észak felé.</p>
 </body>
 
 </html>
